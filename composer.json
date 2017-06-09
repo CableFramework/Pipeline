@@ -1,0 +1,19 @@
+{
+    "name": "cable/cable-pipeline",
+    "description": "Pipeline for cable framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vahit",
+            "email": "vahit.serif119@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cable\\Pipeline\\":"src/Cable/Pipeline"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
