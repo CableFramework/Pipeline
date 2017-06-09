@@ -2,10 +2,15 @@
 
 namespace Cable\Pipeline;
 
-use Cable\Container\Container;
+
 use Closure;
 use RuntimeException;
+use Cable\Container\Container;
 
+/**
+ * Class Pipeline
+ * @package Cable\Pipeline
+ */
 class Pipeline
 {
     /**
